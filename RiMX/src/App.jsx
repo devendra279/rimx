@@ -10,7 +10,8 @@ import LoginForm from './components/LoginForm'
 function App() {
 
   return (
-    <BrowserRouter>
+    <main style={{ marginTop: '86px' }}>
+         <BrowserRouter>
     <Navbar/>
     
     <Routes>
@@ -21,6 +22,7 @@ function App() {
     </Routes>
     <Footer/>
     </BrowserRouter>
+      </main>
   )
 }
 
